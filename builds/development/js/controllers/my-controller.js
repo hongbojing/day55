@@ -646,4 +646,8 @@ function myController(){
     }
   ];
   vm.sevenDays=['Mon','Tue','Wed','Thu','Fri','Sat'];
+  vm.courseInfos=vm.scheduleTerms.termSections;
+  console.log(vm.scheduleTerms[0].termSections[0].meetTimes);
+
 }
+
