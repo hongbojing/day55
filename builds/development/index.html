@@ -5,12 +5,34 @@
     <title>day #</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/anotherstyle.css">
   </head>
-  <body>
+  <body ng-controller="myController as myCtrl">
+<hr>
+    <span ng-repeat-start="period in myCtrl.periods" class="tableLeft">
+      {{period.period}}: {{period.timeStart}} --- {{period.timeEnd}}
+    </span>
+    <span ng-repeat-end>
+      <span ng-if="$first">
+        <span ng-repeat="sevenDay in myCtrl.sevenDays">
+          <span class="dayTitle">
+            {{sevenDay}}
+          </span>
+        </span>
+      </span>
+      <br>
+    </span>
 
 
-
-
+<!--
+    <table class="table tableRight">
+      <tr>
+        <td ng-repeat="sevenDay in myCtrl.sevenDays">
+          {{sevenDay}}
+        </td>
+      </tr>
+    </table>
+-->
 
 
 

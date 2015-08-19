@@ -1,0 +1,72 @@
+[
+  {
+    "period": "1 ",
+    "timeStart": "7:25 AM",
+    "timeEnd": "8:15 AM"
+  },
+  {
+    "period": "2 ",
+    "timeStart": "8:30 AM",
+    "timeEnd": "9:20 AM"
+  },
+  {
+    "period": "3 ",
+    "timeStart": "9:35 AM",
+    "timeEnd": "10:25 AM"
+  },
+  {
+    "period": "4 ",
+    "timeStart": "10:40 AM",
+    "timeEnd": "11:30 AM"
+  },
+  {
+    "period": "5 ",
+    "timeStart": "11:45 AM",
+    "timeEnd": "12:35 PM"
+  },
+  {
+    "period": "6 ",
+    "timeStart": "12:50 PM",
+    "timeEnd": "1:40 PM"
+  },
+  {
+    "period": "7 ",
+    "timeStart": "1:55 PM",
+    "timeEnd": "2:45 PM"
+  },
+  {
+    "period": "8 ",
+    "timeStart": "3:00 PM",
+    "timeEnd": "3:50 PM"
+  },
+  {
+    "period": "9 ",
+    "timeStart": "4:05 PM",
+    "timeEnd": "4:55 PM"
+  },
+  {
+    "period": "10",
+    "timeStart": "5:10 PM",
+    "timeEnd": "6:00 PM"
+  },
+  {
+    "period": "11",
+    "timeStart": "6:15 PM",
+    "timeEnd": "7:05 PM"
+  },
+  {
+    "period": "E1",
+    "timeStart": "7:20 PM",
+    "timeEnd": "8:10 PM"
+  },
+  {
+    "period": "E2",
+    "timeStart": "8:20 PM",
+    "timeEnd": "9:10 PM"
+  },
+  {
+    "period": "E3",
+    "timeStart": "9:20 PM",
+    "timeEnd": "10:10 PM"
+  }
+]
